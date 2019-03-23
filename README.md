@@ -31,3 +31,5 @@ You can also invoke it from within Vim using the ```:VimSyntasticConfig``` comma
 ## Development
 Patches are welcome. Please submit pull requests against the ```develop``` branch.
 
+## License
+vim-syntastic-generator is published under the GNU GPLv3.
