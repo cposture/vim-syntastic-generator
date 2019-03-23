@@ -1,0 +1,3 @@
+#!/bin/sh
+
+echo "$COMPILER" "$@" >> $GEN_LOG_PATH
