@@ -16,9 +16,9 @@ For [vim-plug](https://github.com/junegunn/vim-plug) users, add ```Plug 'cpostur
 
 ## Usage
 
-Run ```./config_gen.py PROJECT_DIRECTORY```, where ```PROJECT_DIRECTORY``` is the root directory of your project's build system (i.e. the one containing the root Makefile, etc.)
+* within bash: ```./config_gen.py PROJECT_DIRECTORY```, where ```PROJECT_DIRECTORY``` is the root directory of your project's build system (i.e. the one containing the root Makefile, etc.)
 
-You can also invoke it from within Vim using the ```:VimSyntasticConfig``` commands to generate a config file for the current directory. These commands accept the same arguments as ```./config_gen.py```, but do not require the project directory to be specified (it defaults to the current working directory).
+* within vim: You can also invoke it from within Vim using the ```:VimSyntasticConfig``` commands to generate a config file for the current directory. These commands accept the same arguments as ```./config_gen.py```, but do not require the project directory to be specified (it defaults to the current working directory).
 
 ## Requirements and Limitations
 * Requirements:
