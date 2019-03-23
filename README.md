@@ -1,4 +1,7 @@
 # vim-syntastic-generator
+
+[中文文档](README_CHINESE.md)
+
 This is a script which generates a list of c/cpp compiler flags from a project with an arbitrary build system. It can be used to:
 
 * generate a c/cpp config file for use with [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
