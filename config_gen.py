@@ -91,7 +91,7 @@ def parse_flags(build_log_path):
             if(i != len(words) - 1
                and word in filename_flags
                and words[i + 1][0] != '-'):
-                flags.add((word, words[i + 1]))
+                flags.add((word + words[i + 1]))
             else:
                 flags.add(word)
     return (line_count, flags)
